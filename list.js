@@ -94,5 +94,9 @@ class singleLinkedList {
             return;
         }
     }
-
+        /*delete list*/
+    deleteList() {
+        this.head = null;
+        this.size = 0;
+    }
 }
