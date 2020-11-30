@@ -87,5 +87,12 @@ class singleLinkedList {
         let previous;
         let size = 0;
      }
+         /*To check if list is empty or not*/
+        isEmpty() {
+        if (this.head == null) {
+            console.log("This list is empty");
+            return;
+        }
+    }
 
 }
