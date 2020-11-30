@@ -63,4 +63,17 @@ class singleLinkedList {
         previous.next = node;
         this.size++;
     }
+    
+    /*Search a node by specified value*/
+    searchbyValue = (data) => {
+        let present = this.head;
+        let pos = this.size;
+        for (; present != null; present = present.next)
+        {
+            if (present.data == data) {
+            console.log(`Node Value = ${present.data} at position = ${pos}`)
+            pos--;
+
+             }
+    }
 }
