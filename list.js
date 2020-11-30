@@ -76,4 +76,16 @@ class singleLinkedList {
         }
           this.isEmpty();
      }
+         /*Remove from index value*/
+   
+        deleteAt = (index) => {
+        if (index > 0 && index > this.size) {
+            console.log("Index out of bound!");
+            return;
+        }
+        let present = this.head;
+        let previous;
+        let size = 0;
+     }
+
 }
