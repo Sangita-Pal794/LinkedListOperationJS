@@ -73,7 +73,7 @@ class singleLinkedList {
             if (present.data == data) {
             console.log(`Node Value = ${present.data} at position = ${pos}`)
             pos--;
-
-             }
-    }
+        }
+          this.isEmpty();
+     }
 }
