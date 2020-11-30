@@ -99,4 +99,17 @@ class singleLinkedList {
         this.head = null;
         this.size = 0;
     }
+        /*display whole list*/
+        displayList = () => {
+        this.isEmpty();
+        let present = this.head;
+        let pos = this.size;
+
+        for (; present != null; present = present.next) {
+            console.log(`Node Value = ${present.data} position = ${pos}`)
+            pos--;
+
+        }
+
+    }
 }
