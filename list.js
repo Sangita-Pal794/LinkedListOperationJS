@@ -113,3 +113,4 @@ class singleLinkedList {
 
     }
 }
+module.exports = new singleLinkedList();
