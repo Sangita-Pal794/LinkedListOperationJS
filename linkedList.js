@@ -1,4 +1,4 @@
-let util = require("./utilList.js");
+let util = require("./list.js");
 let readlineSync = require('readline-sync');
 console.log("Welcome to singly Linkedlist Programme!!");
 /**To take user choice */
